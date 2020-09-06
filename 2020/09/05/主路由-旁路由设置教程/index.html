@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>主路由 + 旁路由设置教程 | eMOI | The things of LIFE</title>
+
+  
+  <meta name="author" content="eMOI">
+  
+
+  
+  <meta name="description" content="经常逛论坛发现很多朋友对于旁路由的设置还不是很清楚，折腾了几天都无功而返，所以就整理了一下设置的步骤，给需要的人。
+一、设备如下K2P 主路由 (高恪、Padavan)IP 地址：192.168.0.1
+N1 旁路由（Openwrt）IP 地址：192.168.0.2
+二、设置 N1 旁路由，登陆管">
+  
+
+  
+  
+  <meta name="keywords" content="padavan,openwrt,旁路由">
+  
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta property="og:title" content="主路由 + 旁路由设置教程"/>
+
+  <meta property="og:site_name" content="eMOI"/>
+
+  
+  <meta property="og:image" content="/favicon.ico"/>
+  
+
+  <link href="/favicon.ico" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="eMOI" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+<meta name="generator" content="Hexo 5.1.1"></head>
+
+
+<body>
+<div class="blog">
+  <div class="content">
+
+    <header>
+  <div class="site-branding">
+    <h1 class="site-title">
+      <a href="/">eMOI</a>
+    </h1>
+    <p class="site-description">The things of LIFE</p>
+  </div>
+  <nav class="site-navigation">
+    <ul>
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/archives">Archives</a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+    <main class="site-main posts-loop">
+    <article>
+
+  
+    
+    <h3 class="article-title"><span>主路由 + 旁路由设置教程</span></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/2020/09/05/主路由-旁路由设置教程/" rel="bookmark">
+        <time class="entry-date published" datetime="2020-09-05T14:55:27.000Z">
+          2020-09-05
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>经常逛论坛发现很多朋友对于旁路由的设置还不是很清楚，折腾了几天都无功而返，所以就整理了一下设置的步骤，给需要的人。</p>
+<p><strong>一、设备如下</strong><br>K2P 主路由 (高恪、Padavan)<br>IP 地址：192.168.0.1</p>
+<p>N1 旁路由（Openwrt）<br>IP 地址：192.168.0.2</p>
+<p><strong>二、设置 N1 旁路由，登陆管理界面，找到【网络】→【接口】，修改 lan 口</strong></p>
+<p><img src="https://raw.githubusercontent.com/lzzh/lzzh/lzzh/OpenWrt-DHCP.png"></p>
+<p><strong>三、K2P 主路由 (高恪、Padavan) 设置方法</strong><br>⒈高恪修改 DHCP，路径：【网络设置】→【DHCP】→【DHCP】，点修改图标</p>
+<p><img src="https://raw.githubusercontent.com/lzzh/lzzh/lzzh/GoCloud-DHCP.png"></p>
+<p>⒉Padavan 修改 DHCP，路径：【高级设置】→【内部网络 (LAN)】→【DHCP 服务器】</p>
+<p><img src="https://raw.githubusercontent.com/lzzh/lzzh/lzzh/Padavan-DHCP.png"></p>
+<p><strong>温馨提醒：</strong><br>如果主路由是 360、小米、华为等品牌的路由器，设置方法和上面高恪、Padavan 的设置方法是有所不同的，因为这些品牌的路由器 DHCP 网关是无法自定义的，必须关闭 DHCP，旁路由开启 DHCP，参考上面的（<strong>二</strong>）步骤 N1 旁路由设置上半部分，下半部分不用打勾关闭 DHCP 服务。</p>
+<p>教程来至：紫緣网（<a target="_blank" rel="noopener" href="https://iroot.cc/86.html%EF%BC%89">https://iroot.cc/86.html）</a></p>
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/padavan/">padavan</a><a href="/tags/openwrt/">openwrt</a><a href="/tags/旁路由/">旁路由</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+  
+
+
+
+
+
+
+    </main>
+
+    <footer class="site-footer">
+  <p class="site-info">
+    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
+    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
+    </br>
+    
+    &copy; 2020 eMOI
+    
+  </p>
+</footer>
+    
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>这几年我的NAS的折腾之路 | eMOI | The things of LIFE</title>
+
+  
+  <meta name="author" content="eMOI">
+  
+
+  
+  <meta name="description" content="张大妈上经常有NAS相关的晒单和教程，而我折腾NAS也应该不短于3年了，今天就回忆一下我坎坷的NAS折腾之旅吧。
+路由器外接阶段在11-12年的时候，我买了一台路由器叫如意云，这台路由器因为可以随意刷机，当时牛逼的不行，它自带一个USB口，可以外接U盘或者移动硬盘，经过一番折腾，我在上面插了一个U盘">
+  
+
+  
+  
+  <meta name="keywords" content="NAS,群晖,蜗牛星际,路由器">
+  
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta property="og:title" content="这几年我的NAS的折腾之路"/>
+
+  <meta property="og:site_name" content="eMOI"/>
+
+  
+  <meta property="og:image" content="/favicon.ico"/>
+  
+
+  <link href="/favicon.ico" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="eMOI" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+<meta name="generator" content="Hexo 5.1.1"></head>
+
+
+<body>
+<div class="blog">
+  <div class="content">
+
+    <header>
+  <div class="site-branding">
+    <h1 class="site-title">
+      <a href="/">eMOI</a>
+    </h1>
+    <p class="site-description">The things of LIFE</p>
+  </div>
+  <nav class="site-navigation">
+    <ul>
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/archives">Archives</a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+    <main class="site-main posts-loop">
+    <article>
+
+  
+    
+    <h3 class="article-title"><span>这几年我的NAS的折腾之路</span></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/2020/08/26/20200825/" rel="bookmark">
+        <time class="entry-date published" datetime="2020-08-26T02:14:43.000Z">
+          2020-08-26
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>张大妈上经常有NAS相关的晒单和教程，而我折腾NAS也应该不短于3年了，今天就回忆一下我坎坷的NAS折腾之旅吧。</p>
+<h2 id="路由器外接阶段"><a href="#路由器外接阶段" class="headerlink" title="路由器外接阶段"></a>路由器外接阶段</h2><p>在11-12年的时候，我买了一台路由器叫如意云，这台路由器因为可以随意刷机，当时牛逼的不行，它自带一个USB口，可以外接U盘或者移动硬盘，经过一番折腾，我在上面插了一个U盘实现了最基础的本地存储功能。可是因为它的内存实在是太小了，U盘存储大文件的时候必然会卡死，只能重启路由器，这样一个半残的解决方案很快就放弃了，还是网盘来的方便安全。当时百度云正好也在搞活动，我记得还一下子领了很多空间。<br>在17年同事李伟给我安利了梅林固件，在coolshare上刷了各种帖子后，觉得真的是太牛逼了，那时候网件和华硕得路由器都贵的要死（现在高端的还是贵的要死），各种对比各种看教程，发现R8500好像性价比更高一下，于是在京东上1499入手了，当时好像也在搞活动，其实当时华硕的那个路由器如果再便宜一些，我就买了。我买的这台是越南产的，其实到手之后它的体积还是很让我震惊的，实在是太大了，体积和一包A4纸差不多，重量也差不多，盒子的包装非常牛逼，感觉这个包装都能卖50块钱的样子。按照coolshare上的教程，顺利的刷上了梅林的系统，不得不说，梅林的系统功能和易用程度是原系统没办法比拟的，可是也存在一个问题，因为是第三方的固件，稳定性差强人意，偶尔的就需要重启一下路由。R8500是有USB3.0接口的，我插上U盘，开启FTP和SMB共享就可以传输数据，还自带（鸡肋）的下载功能，唯一的缺点就是传输速率实在是太低了，应该不到5M/s，因为可以安装插件，可以实现远程下载等功能，但是这速度我实在是提不起，就逐渐的放弃了。</p>
+<h2 id="Mini主机阶段"><a href="#Mini主机阶段" class="headerlink" title="Mini主机阶段"></a>Mini主机阶段</h2><p>17年我搞到了两台工业型的主机，一台用的N3665一台用I7-2440，性能都差强人意，但功耗确实很低，一个15W，一个35W，是相当的nice。这两个在硬盘方面都没有什么扩展性，所以我买了一个硬盘扩展器，从原来的破电脑上拆下了一个500GB的3.5寸硬盘，安装了大名鼎鼎的黑群晖，可是群晖的系统我是真的搞不明白，硬盘格式与Win不兼容，Win直接读取只能靠映射，这就很扯了同志们，我大约有200G的影视资源，通过映射传输，3M/s的速度可能要传好几天，这点我怎么可能忍？万一有一天我不想要群晖了，我还要再拷贝出来，这是让人疯掉吗？我一直没有搞明白群晖和win直连的方法，网络上好像也没有这个需求，但是对于数据能够自由的控制我还是比较执念的。后来不死心又折腾了好多次，包括freenas和万由nas等都没有达到我的需求，还有一个问题，群晖的docker设置太复杂了，想要个功能要搞很长时间，效率可能还不高，有些功能还要再花钱，向我这种垃圾折腾党怎么可能忍？<br>所以我转投了Win7、Win10阵营，Windows的好处就是熟悉，从1999年开始摆弄windows系统，用起来各种顺手，下载我用迅雷和utrrent，百度云盘和cablire也安排上，hexo统统安排上，远程桌面一开始用的teamviewer，后来又尝试了anydesk，向日葵和todesk，现在用蒲公英X1和todesk感觉没有什么满足不了我。win上面软件的丰富程度只有你想不到没有它办不到的，google上一搜索所有的问题都有大把的解决方案，jellfin配合蒲公英X1我虽然还没有实验，但可以想象是可以远程看片的。我最折腾的一段时间是我买了一个不锈钢的硬盘架，又买了好几根sata线，自己组了一个硬盘笼，没有外观设计但是可以用，4T的硬盘也用的美滋滋，后来一个2T盘坏掉了，后来也遇到了蜗牛星际，对那个矿渣，280块钱直到现在我都觉得很值。<br>#蜗牛星际阶段<br>蜗牛星际自带4盘位，其实到手之后还是有点超出我的想象的，体积还是太大，如果体积能够进一步精简我觉得就更完美了。家庭用我觉得2盘位就足够了，用10T的硬盘或者8T的硬盘足够家庭用了。蜗牛星际用了一年半，电源烧掉了，一块8T的硬盘坏掉了，风扇的噪声实在太大，挂载两个8T盘功耗可以达到50+w的样子，前几天我就放弃了，又用回了工控机的方案，这个整体的性能足够，静音省电我都很喜欢。</p>
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/NAS/">NAS</a><a href="/tags/群晖/">群晖</a><a href="/tags/蜗牛星际/">蜗牛星际</a><a href="/tags/路由器/">路由器</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+  
+
+
+
+
+
+
+    </main>
+
+    <footer class="site-footer">
+  <p class="site-info">
+    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
+    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
+    </br>
+    
+    &copy; 2020 eMOI
+    
+  </p>
+</footer>
+    
+  </div>
+</div>
+</body>
+</html>
